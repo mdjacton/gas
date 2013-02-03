@@ -163,3 +163,14 @@ body
         text-align: center;
 	background-color: transparent;
 }
+
+#nav_buttons
+{
+    float: right;
+    margin: 80px 6% 0% 0%;
+}
+
+#button_size
+{
+    width: 55px;
+}
