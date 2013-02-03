@@ -1,0 +1,165 @@
+/* 
+    Document   : basics
+    Created on : 03 Feb 2013, 10:22:16 AM
+    Author     : martin
+    Description:
+        Spiraleye basic css.
+*/
+
+#background_container
+{
+	
+	height: 1000px;
+	/*min-width: 1000px;
+	max-width: 1482px;*/
+	margin: 0 auto;
+	background-image:  url('/gas/bag_of_magic/images/background_img.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align:center;
+}
+
+
+#container
+{
+	width: 1000px;
+	margin: 0 auto;
+	text-align:left;
+}
+
+#header
+{
+	padding: 0px 0;
+        margin-bottom: 0px;	
+		
+	
+}
+
+#navigation
+{
+	float: left; 
+	margin-top: -20px;
+	width: 1000px;
+	height: 40px;
+	/*padding-bottom: 5px;*/
+	/*border-bottom: solid 3px #CCFFFF;	*/
+	background-color: transparent; /*#282d2d*/
+	/*background-image: url('images/bar.jpg');
+	background-repeat: repeat-x;*/
+	/*text-transform: uppercase;*/
+        font-size: 14px;
+		
+	
+		
+}
+
+
+#navbar {
+	background-image: url('/gas/bag_of_magic/images/navbar.png');
+	height: 2px;
+	width: 1000px;
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+#wrapper
+{
+	margin-top:70px;
+	clear: both;
+	float: left;
+	width: 1000px;
+        background: transparent;
+        border-left: solid #dde0e1 0px;
+        border-right: solid #dde0e1 0px;
+        border-bottom: solid #dde0e1 0px;
+		
+}
+
+#content-wrapper
+{
+	width: 743px;
+	float: left;
+	text-align: center;
+	margin-left:0px;
+	
+}
+
+#content
+{
+	padding-left: 0px;
+	padding-right: 30px;
+	line-height: 1.6em;
+	text-align: left;
+	color: #fff;
+	position: relative;
+	
+	
+	
+	
+}
+
+#content_background
+{
+	float: left;
+	padding: 0px 0 0 0px;
+	margin: 0px;
+	position: relative;
+	
+}
+
+
+#page_wrapper
+{
+	text-align: center;
+	width: 1000px;
+}
+#page_content
+{
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#search_content
+{
+	padding-left: 85px;
+	padding-right: 85px;
+	line-height: 1.6em;
+	text-align: left;
+	color: #fff;
+	position: relative;
+}
+
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	background: #0a0b10;
+
+	background-image: url('/gas/bag_of_magic/images/background_tile.jpg');
+	background-repeat: repeat-x;
+	
+	font: normal 13px Verdana, Arial, Sans-Serif;
+    text-align: center;
+}
+
+
+#logo {
+	background-image: url('/gas/bag_of_magic/images/logo.png');
+	width: 363px;
+	height: 104px;
+	float: left;
+}
+
+
+#break
+{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 0px 0;
+	color: #555555;
+	padding: 10px 0;
+        text-align: center;
+	background-color: transparent;
+}
